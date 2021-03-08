@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\main.cpp" />
+    <ClCompile Include="..\..\Source\Scene.cpp" />
+    <ClCompile Include="..\..\Source\BaseModel.cpp" />
+    <ClCompile Include="..\..\Source\Common.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Shader.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ViewManager.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\tiny_obj_loader.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Include\Scene.h" />
+    <ClInclude Include="..\..\Include\BaseModel.h" />
+    <ClInclude Include="..\..\Include\Shader.h">
+      <Filter>ToolsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\ViewManager.h">
+      <Filter>ToolsHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\Common.h">
+      <Filter>ToolsHeader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{fae60b86-0597-4d24-a84d-4cc642b30f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ToolsHeader">
+      <UniqueIdentifier>{1d7284a2-2cc7-485d-bd52-24c8bf732cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{6b7451f3-b983-42a8-a459-97e5873dcfd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Assets\fragment.fs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\vertex.vs.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,38 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"projectIndex" : 0,
+					"source" : "."
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project"
+				}
+			],
+			"targets" : []
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/t4w32/source/repos/frakw/NTUST_FUNDAMENTALS_OF_COMPUTER_GRAPHICS/quiz/quiz1/Program/3.4.2.CompleteApp/Include/GLM/glm/out/build/x64-Debug (預設)",
+		"source" : "C:/Users/t4w32/source/repos/frakw/NTUST_FUNDAMENTALS_OF_COMPUTER_GRAPHICS/quiz/quiz1/Program/3.4.2.CompleteApp/Include/GLM/glm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
