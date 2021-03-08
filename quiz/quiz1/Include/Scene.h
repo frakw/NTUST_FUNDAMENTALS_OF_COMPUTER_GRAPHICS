@@ -21,6 +21,9 @@ public:
 	std::vector<BaseModel*> GetModels();
 
 private:
+	bool change_on = false;
+	int triangle_index = 0;
+	float rgb_val[3] = { 1.0f,1.0f,1.0f };//for color change
 
 	std::vector<BaseModel*> models;
 	static ViewManager* camera;

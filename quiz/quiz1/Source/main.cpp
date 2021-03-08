@@ -5,6 +5,7 @@
 #define MENU_Sale 1
 #define MENU_Shrink 2
 #define MENU_EXIT   3
+#define MENU_COLOR 4
 
 using namespace glm;
 using namespace std;
@@ -136,6 +137,7 @@ int main(int argc, char *argv[])
 	int menu_main = glutCreateMenu(My_Menu);
 	int menu_entry = glutCreateMenu(My_Menu);
 
+	/*
 	glutSetMenu(menu_main);
 	glutAddSubMenu("Scale", menu_entry);
 	glutAddMenuEntry("Exit", MENU_EXIT);
@@ -143,6 +145,9 @@ int main(int argc, char *argv[])
 	glutSetMenu(menu_entry);
 	glutAddMenuEntry("*2.0", MENU_Sale);
 	glutAddMenuEntry("*0.5", MENU_Shrink);
+	*/
+	glutSetMenu(menu_main);
+	glutAddMenuEntry("change color", MENU_COLOR);
 
 	glutSetMenu(menu_main);
 	glutAttachMenu(GLUT_RIGHT_BUTTON);
