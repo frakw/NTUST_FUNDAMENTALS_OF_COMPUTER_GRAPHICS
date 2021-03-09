@@ -130,6 +130,15 @@ void Scene::Render(){
 	//}
 	glUseProgram(0);
 	glBegin(GL_TRIANGLES);
+	glColor3f(1, 0, 0); // red
+	glVertex2f(-0.7, 0.4);
+	glColor3f(0, 1, 0); // green
+	glVertex2f(0.7, 0.4);
+	glColor3f(0, 0, 1); // blue
+	glVertex2f(0, -1);
+	glEnd();
+
+	glBegin(GL_TRIANGLES);
 	glColor3f(rgb_val[0], 0, 0); // red
 	glVertex2f(-0.8, -0.8);
 	glColor3f(0, rgb_val[1], 0); // green
